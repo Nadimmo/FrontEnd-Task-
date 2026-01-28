@@ -3,9 +3,9 @@ import Progress from "./Progress";
 
 const TwoCards = () => {
   return (
-    <div className="grid grid-cols-1 lg:grid-cols-2 gap-3">
+    <div className="grid grid-cols-1 lg:grid-cols-2 gap-x-20 ">
       {/* Recent Activity */}
-      <div className="ml-3 rounded-2xl border border-[#2B7FFF40] bg-gradient-to-b from-[#0E1A3A] to-[#0A1430] p-6 shadow-lg">
+      <div className=" rounded-2xl border border-[#2B7FFF40] bg-gradient-to-b from-[#0E1A3A] to-[#0A1430] p-6 shadow-lg lg:w-[480px]">
         <h2 className="text-white text-lg font-semibold mb-4">
           Recent Activity
         </h2>
@@ -35,7 +35,7 @@ const TwoCards = () => {
       </div>
 
       {/* Top Repair Requests */}
-      <div className="rounded-2xl border border-[#2B7FFF40] bg-gradient-to-b from-[#0E1A3A] to-[#0A1430] p-6 shadow-lg lg:ml-0 ml-3">
+      <div className="rounded-2xl border border-[#2B7FFF40] bg-gradient-to-b from-[#0E1A3A] to-[#0A1430] p-6 shadow-lg lg:mt-0 mt-2 lg:w-[480px]" >
         <h2 className="text-white text-lg font-semibold mb-6">
           Top Repair Requests
         </h2>

@@ -10,7 +10,7 @@ const StatCard = ({
   return (
     <div
       className={`lg:w-[320px] relative rounded-2xl p-5 bg-gradient-to-b from-[#0E1A3A] to-[#0A1430]
-      border  border-[#2B7FFF40] shadow-lg ml-4`}
+      border  border-[#2B7FFF40] shadow-lg `}
     >
       {/* Icon */}
       <div

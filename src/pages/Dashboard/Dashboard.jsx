@@ -6,30 +6,17 @@ import {
   FiXCircle,
 } from "react-icons/fi";
 import StatCard from "./StatCard";
-import { FaRegBell } from "react-icons/fa";
 import TwoCards from "./TwoCards/TwoCards";
+import DHeader from "../../compnents/DHeader";
 
 const Dashboard = () => {
   return (
-    <div className="space-y-6">
+    <div className="space-y-6 ml-6">
       {/* Header */}
-      <div className="bg-[#111B3C] flex items-center justify-between  pb-4 pl-3 pt-4">
-        <h1 className="text-xl font-semibold text-white">Dashboard Overview</h1>
-
-        <div className="flex items-center gap-4 px-3">
-          <button className="text-white/80 hover:text-white">
-            <FaRegBell />
-          </button>
-          <img
-            src="/src/assets/Avatar.png"
-            alt="User"
-            className="w-9 h-9 rounded-full border border-[#2B7FFF]"
-          />
-        </div>
-      </div>
+      <DHeader text={"Dashboard Overview"}></DHeader>
 
       {/* Cards */}
-      <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-x-2 gap-y-3">
+      <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-x-16 gap-y-4">
         <StatCard
           title="Total Calls Today"
           value="127"
@@ -85,7 +72,7 @@ const Dashboard = () => {
       </div>
 
       {/* Char Bar */}
-      <section className="bg-[#111B3C] ml-3 p-2 rounded-xl">
+      <section className="bg-[#111B3C]  p-2 rounded-xl lg:w-[980px]">
         <div className="flex justify-between mb-2">
           <div className="ml-3">
             <h3 className="text-xl">Call Trends - This Week</h3>
@@ -103,7 +90,7 @@ const Dashboard = () => {
             </select>
           </div>
         </div>
-        <img src="/src/assets/Container.png" alt="" />
+        <img src="/src/assets/Container.png" alt=""  />
       </section>
 
       {/* Activity and Progress */}
