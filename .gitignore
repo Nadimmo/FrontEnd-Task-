@@ -11,11 +11,7 @@ node_modules
 dist
 dist-ssr
 *.local
-Dashboard
-StatCard.jsx
-Activity.jsx
-Progress.jsx
-TwoCards.jsx
+
 
 # Editor directories and files
 .vscode/*
