@@ -11,7 +11,7 @@ const DHeader = ({text}) => {
             <FaRegBell />
           </button>
           <img
-            src="/src/assets/Avatar.png"
+            src="https://i.ibb.co.com/sJt2gSwr/Avatar.png"
             alt="User"
             className="w-14 h-14 rounded-full border border-[#2B7FFF]"
           />

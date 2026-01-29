@@ -28,7 +28,7 @@ const Root = () => {
           <div className="py-4">
             <div className="p-2 border w-fit mx-auto rounded-xl bg-gradient-to-b from-[#00FF88] to-[#00D4FF] shadow-[0_0_15px_rgba(0,255,136,0.3)]">
               <img
-                src="/src/assets/Icon.png"
+                src="https://i.ibb.co.com/9kpcPHRK/Icon.png"
                 alt="Logo"
                 className="w-[32px] h-[32px] mx-auto"
               />

@@ -8,6 +8,8 @@ import {
 import StatCard from "./StatCard";
 import TwoCards from "./TwoCards/TwoCards";
 import { FaRegBell } from "react-icons/fa";
+import { Bot } from "lucide-react";
+
 
 const Dashboard = () => {
   return (
@@ -21,7 +23,7 @@ const Dashboard = () => {
             <FaRegBell />
           </button>
           <img
-            src="/src/assets/Avatar.png"
+            src="https://i.ibb.co.com/sJt2gSwr/Avatar.png"
             alt="User"
             className="w-14 h-14 rounded-full border border-[#2B7FFF]"
           />
@@ -44,6 +46,7 @@ const Dashboard = () => {
             value="98"
             change="+7%"
             positive
+            icon={<Bot></Bot>}
             color="from-[#D946EF] to-[#9333EA]"
           />
 

@@ -21,7 +21,7 @@ function Profile() {
           <p className="mb-3 text-sm text-white/80">Profile Image</p>
           <div className="relative w-24 h-24">
             <img
-              src="/src/assets/Avatar.png"
+              src="https://i.ibb.co.com/sJt2gSwr/Avatar.png"
               alt="Profile"
               className="w-24 h-24 rounded-full "
             />

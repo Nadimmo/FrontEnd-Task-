@@ -15,7 +15,7 @@ const Settings = () => {
         <p className="text-sm mt-6 mb-4">Profile Images</p>
         <div className="flex items-center gap-4">
           <img
-            src="/src/assets/Avatar.png"
+            src="https://i.ibb.co.com/sJt2gSwr/Avatar.png"
             alt="Profile"
             className="w-24 h-24 rounded-full border border-[#2B7FFF]"
           />
