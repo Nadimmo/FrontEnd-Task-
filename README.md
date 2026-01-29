@@ -5,7 +5,7 @@ A modern React.js web application built with clean UI and reusable components.
 ---
 
 ## 🌐 Live Link
-🔗 https://your-live-site-link.vercel.app
+🔗 [https://your-live-site-link.vercel.app](https://front-end-task-zeta.vercel.app/)
 
 ## 📂 GitHub Repository
 🔗 https://github.com/Nadimmo/FrontEnd-Task-
