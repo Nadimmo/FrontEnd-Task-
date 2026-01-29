@@ -45,7 +45,7 @@ const Dashboard = () => {
                     <IoCallOutline className="text-xl" /> Call Logs
                   </span>
                 </Link>
-                <Link to={"/"} className="text-lg py-3 px-2 text-[#FFFFFF]">
+                <Link to={"/appointment"} className="text-lg py-3 px-2 text-[#FFFFFF]">
                   <span className="flex gap-3 items-center">
                     {" "}
                     <FaCalendar className="text-xl" />

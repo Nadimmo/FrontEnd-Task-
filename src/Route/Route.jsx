@@ -4,6 +4,7 @@ import Root from '../Root/Root';
 import Dashboard from '../pages/Dashboard/Dashboard';
 import Settings from '../pages/Settings/Settings';
 import Profile from '../pages/Settings/Profile';
+import Appointment from '../pages/Appoinment/Appointment';
 
 const Route = createBrowserRouter([
   {
@@ -22,6 +23,10 @@ const Route = createBrowserRouter([
         {
             path: '/Profile',
             element: <Profile></Profile>
+        },
+        {
+            path: '/appointment',
+            element: <Appointment></Appointment>
         }
     ]
   },
