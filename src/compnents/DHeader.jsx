@@ -3,7 +3,7 @@ import { FaRegBell } from "react-icons/fa";
 
 const DHeader = ({text}) => {
   return (
-    <div className="bg-[#111B3C] flex items-center justify-between  p-4 lg:w-[980px]">
+    <div className="bg-[#111B3C] flex items-center justify-between  p-4 ">
         <h1 className="text-xl font-semibold text-white">{text}</h1>
 
         <div className="flex items-center gap-4 px-3">

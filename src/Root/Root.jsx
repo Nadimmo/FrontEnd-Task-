@@ -67,7 +67,7 @@ const Dashboard = () => {
         </div>
 
         {/* Dashboard Content */}
-        <div className="w-3/4 ">
+        <div className="w-full">
           <Outlet />
         </div>
       </div>

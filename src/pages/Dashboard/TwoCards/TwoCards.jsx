@@ -3,7 +3,7 @@ import Progress from "./Progress";
 
 const TwoCards = () => {
   return (
-    <div className="grid grid-cols-1 lg:grid-cols-2 gap-x-20 ">
+    <div className="grid grid-cols-1 lg:grid-cols-2 gap-x-4 ">
       {/* Recent Activity */}
       <div className=" rounded-2xl border border-[#2B7FFF40] bg-gradient-to-b from-[#0E1A3A] to-[#0A1430] p-6 shadow-lg lg:w-[480px]">
         <h2 className="text-white text-lg font-semibold mb-4">
