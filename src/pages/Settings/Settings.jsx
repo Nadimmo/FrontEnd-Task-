@@ -1,13 +1,14 @@
 import React from "react";
 import DHeader from "../../compnents/DHeader";
+import { Link } from "react-router-dom";
 
 const Settings = () => {
   return (
-    <div className=" bg-gradient-to-r from-[#101b43]  via-[#152353] to-[#131e43] h-screen">
+    <div className=" bg-gradient-to-br from-[#0a1438] via-[#0d1b4c] to-[#050b24] h-screen">
       <DHeader text={"Settings"}></DHeader>
-      <div className="mt-4 pl-4">
+      <div className="mt-4 pl-10">
         <div className="flex gap-x-6">
-          <h3>Profile</h3>
+          <Link to={"/Profile"}>Profile</Link>
           <h3>Password Settings</h3>
         </div>
         <p className="text-sm mt-6 mb-4">Profile Images</p>
@@ -18,9 +19,9 @@ const Settings = () => {
             className="w-24 h-24 rounded-full border border-[#2B7FFF]"
           />
 
-          <button className="text-xs px-4 py-1.5 mt-8 rounded-full border border-[#2B7FFF] bg-[#152252] hover:bg-[#1C2A52] transition">
+          <Link to={"/Profile"} className="text-xs px-4 py-1.5 mt-8 rounded-full border border-[#2B7FFF] bg-[#152252] hover:bg-[#1C2A52] transition">
             Edit Profile
-          </button>
+          </Link>
         </div>
         {/* Info Fields */}
         {/* Info Fields */}

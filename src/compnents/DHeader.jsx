@@ -13,7 +13,7 @@ const DHeader = ({text}) => {
           <img
             src="/src/assets/Avatar.png"
             alt="User"
-            className="w-9 h-9 rounded-full border border-[#2B7FFF]"
+            className="w-14 h-14 rounded-full border border-[#2B7FFF]"
           />
         </div>
       </div>

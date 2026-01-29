@@ -3,6 +3,7 @@ import { createBrowserRouter } from 'react-router-dom';
 import Root from '../Root/Root';
 import Dashboard from '../pages/Dashboard/Dashboard';
 import Settings from '../pages/Settings/Settings';
+import Profile from '../pages/Settings/Profile';
 
 const Route = createBrowserRouter([
   {
@@ -18,7 +19,10 @@ const Route = createBrowserRouter([
             path: '/settings',
             element: <Settings></Settings>
         },
-
+        {
+            path: '/Profile',
+            element: <Profile></Profile>
+        }
     ]
   },
 ]);
