@@ -7,7 +7,7 @@ const Settings = () => {
   return (
     <div className=" bg-linear-to-br from-[#0a1438] via-[#0d1b4c] to-[#050b24] h-screen">
       <DHeader text={"Settings"}></DHeader>
-      <div className="mt-4 pl-10">
+      <div className="mt-4 p-2 lg:pl-10">
         <div className="flex gap-x-6">
           <Link to={"/Profile"}>Profile</Link>
           <h3>Password Settings</h3>

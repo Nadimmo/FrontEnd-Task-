@@ -15,7 +15,7 @@ function Profile() {
           Password Settings
         </button>
       </div>
-      <div className="pl-10">
+      <div className="pl-2 lg:pl-10">
         {/* Profile Image */}
         <div className="mt-6">
           <p className="mb-3 text-sm text-white/80">Profile Image</p>
