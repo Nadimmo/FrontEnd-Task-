@@ -11,7 +11,7 @@ const Dashboard = () => {
     <div className="min-h-screen ]">
       {/* Mobile Menu Button */}
       <button
-        className="md:hidden p-3 bg-[#F1BA88] text-white  hover:bg-gray-700 transition duration-300"
+        className="md:hidden p-3 bg-[#111b3c] text-white  hover:bg-gray-700 transition duration-300"
         onClick={() => setIsOpen(!isOpen)}
       >
         <FaBars size={24} />
@@ -40,7 +40,7 @@ const Dashboard = () => {
                     Dashboard Overview
                   </span>
                 </Link>
-                <Link to={"/"} className="text-lg py-3 px-2 text-[#FFFFFF]">
+                <Link to={"/callLogs"} className="text-lg py-3 px-2 text-[#FFFFFF]">
                   <span className="flex gap-3 items-center">
                     <IoCallOutline className="text-xl" /> Call Logs
                   </span>

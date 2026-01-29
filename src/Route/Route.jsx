@@ -5,6 +5,7 @@ import Dashboard from '../pages/Dashboard/Dashboard';
 import Settings from '../pages/Settings/Settings';
 import Profile from '../pages/Settings/Profile';
 import Appointment from '../pages/Appoinment/Appointment';
+import CallLogs from '../pages/CallLogs/CallLogs';
 
 const Route = createBrowserRouter([
   {
@@ -27,6 +28,10 @@ const Route = createBrowserRouter([
         {
             path: '/appointment',
             element: <Appointment></Appointment>
+        },
+        {
+            path: '/callLogs',
+            element: <CallLogs></CallLogs>
         }
     ]
   },
